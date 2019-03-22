@@ -754,7 +754,6 @@ id auto
 id barrier
 id beginning
 id blocking
-id bmapView
 id bottom
 id bt_find
 id but_Loc
@@ -810,6 +809,7 @@ id line1
 id line3
 id listMode
 id list_item
+id map
 id media_actions
 id message
 id middle

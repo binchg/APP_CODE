@@ -3,10 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
-//        abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86","arm64-v8a","x86_64"
         ndk {
-            //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）
             abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "x86","x86_64"
         }
         multiDexEnabled true
@@ -39,11 +36,10 @@ dependencies {
 
     implementation files('libs/BaiduLBS_Android.jar')
 
-    implementation 'com.amap.api:3dmap:latest.integration'
-
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.amap.api:3dmap:5.0.0'
-    implementation 'com.amap.api:location:3.3.0'
-    implementation 'com.amap.api:search:5.0.0'
+    implementation 'com.amap.api:3dmap:latest.integration'
+    implementation 'com.amap.api:location:latest.integration'
+    implementation 'com.amap.api:search:latest.integration'
+    implementation 'com.amap.api:search:latest.integration'
 
 }
