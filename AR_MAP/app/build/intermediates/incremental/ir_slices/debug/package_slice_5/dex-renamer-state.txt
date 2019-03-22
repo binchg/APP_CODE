@@ -1,0 +1,4 @@
+#Fri Mar 22 20:25:28 CST 2019
+base.0=E\:\\7android\\aaaaaaa\\AR_MAP\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex
